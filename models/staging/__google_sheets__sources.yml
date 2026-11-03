@@ -1,0 +1,12 @@
+sources:
+- name: sql_server_dbo
+description: Base de datos transaccional del e-commerce
+database: "{{ env_var('google_sheets') }}"
+schema: google_sheets
+tables:
+- name: budget
+description: Presupuesto.
+columns:
+- name: _row
+description: fila.
+- name: users
