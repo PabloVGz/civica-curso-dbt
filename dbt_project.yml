@@ -90,3 +90,5 @@ seeds:
         country_code: varchar(2)
         country_name: varchar(100)
         continent: varchar(50)
+
+
