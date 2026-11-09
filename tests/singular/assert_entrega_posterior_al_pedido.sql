@@ -14,7 +14,7 @@
 
 select
       order_id
-    , order_created_at_utc
+    , created_at_utc
     , delivered_at_utc
 from {{ ref('fct_orders') }}
-where delivered_at_utc < order_created_at_utc
+where delivered_at_utc < created_at_utc
