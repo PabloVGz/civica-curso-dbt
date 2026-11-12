@@ -25,7 +25,6 @@ final as (
         , oi.unit_price_usd
         , oi.line_total_usd
         , oi.date_load
-        ,'CI test' AS ci_test_column
 
     from order_items oi
     inner join orders o on oi.order_id = o.order_id
