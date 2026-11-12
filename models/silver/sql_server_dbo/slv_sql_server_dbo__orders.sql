@@ -21,8 +21,8 @@ cleaned as (
         , tracking_id
         , shipping_service
         , shipping_cost_usd
-        , item_order_cost_usd
-        , total_order_cost_usd
+        , order_cost_usd
+        , order_total_usd
         , order_status
         , date_load
     from orders
